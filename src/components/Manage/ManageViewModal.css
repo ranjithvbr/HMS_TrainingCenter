@@ -1,0 +1,66 @@
+.modal_font{
+    font-size: 16px !important;
+    font-family: "Roboto-Bold";
+    font-weight: bold;
+    padding: 1%;
+}
+.border_dotted{
+    border-top: dotted;
+    opacity: 0.3;
+}
+.para_font{
+    font-family: "Roboto-Bold";
+    font-size: 12px;
+}
+.second_font{
+    font-size: 14px !important;
+    font-family: "Roboto-Bold";
+    margin-left: 9%;
+    padding: 1%;
+}
+.session_border{
+    font-size: 15px !important;
+    font-family: "Roboto-Bold";
+    margin-left: 23%;
+   
+}
+.modal_view{
+    margin-top: 10px;
+}
+
+.session_color{
+color: aliceblue;
+border: 2px solid #0DCA59;
+border-radius: 50px;
+padding:10px 0px 10px 0px;
+width: 125px;
+margin-top: 4%;
+display: flex;
+justify-content: center;
+align-items: center;
+background: #0DCA59 0% 0% no-repeat padding-box;
+}
+.pac_list{
+display:flex;
+/* justify-content: space-between; */
+width:100%;
+}
+.tra_pac{
+    width:50%;
+    color:#333;
+}
+.pac_value{
+ width:50%;
+ word-wrap: break-word !important;
+ font-size: 14px;
+}
+@media only screen and (max-width: 850px){
+    .session_border{
+       margin-left: 0px !important;
+    }
+    }
+    @media only screen and (max-width: 768px){
+        .session_border{
+           margin-left: 0px !important;
+        }
+        }

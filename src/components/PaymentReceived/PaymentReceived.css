@@ -1,0 +1,47 @@
+.payment{
+ display: inline;
+    justify-content: center ;
+    align-items: center ;
+ 
+}
+.payment_logo
+{
+    width: 140px !important;
+    height: 100px !important;
+    /* margin-left: 42%;
+    margin-top: 5%; */
+    margin-bottom: 30px;
+    
+}
+/* @media only screen and (max-width: 600px) {
+    body {
+
+    }
+  } */
+.okay{
+   margin-bottom: 15px;
+}
+
+.payment_received{
+    color: 	#82a700;
+    text-align: center;
+    font-size: 18px;
+}
+.successfull{
+    color:rgb(192,192,192);
+    text-align: center;
+}
+.email{
+    text-align: center;
+    font-size: 18px;
+    color:#515050;
+}
+.receive_msg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.receive_msg{
+    font-size: 18px;
+    color:#ABA9A9 !important;
+}

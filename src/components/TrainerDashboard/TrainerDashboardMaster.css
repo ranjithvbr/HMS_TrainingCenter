@@ -1,0 +1,36 @@
+.trainer_dashboard_master .dashboardborder_box
+{
+	width:100%;
+    background-color: #F8F8F8;
+	padding: 5px 20px;
+	box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+	display:flex;
+    justify-content: space-between;
+	align-items: center;
+	/* font-weight: 600; */
+	height: 70px;
+}
+
+.trainer_dashboard_master .dashboard
+{
+	margin-top:10px !important;
+    margin-bottom: 1rem !important;
+   /* font-weight: 600 !important; */
+    font-size: 18px !important;
+     color:rgb(131 175 64) !important;
+}
+.dashboard_time
+{
+	 
+	  font-size:1.5rem !important;
+}
+.totay_date
+{
+	    color: rgba(0, 0, 0, 0.87) !important;
+	    margin-right: 15px !important;
+}
+.total_appointments
+{
+	padding: 20px 0px 0px 20px;
+}

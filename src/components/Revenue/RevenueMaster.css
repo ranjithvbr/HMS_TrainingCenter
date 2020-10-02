@@ -1,0 +1,164 @@
+.uploadsmasterheader{
+  height: auto;
+  width:100%;
+  background: #F8F8F8 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 5px 5px 0px 0px;
+  
+  }
+  .doctor_revenue .titlerevenue{
+  font-size: 1.75rem;
+   color: #86b149;
+   font-weight: 600;
+  }
+  .revenue_dash{
+    position: relative;
+  }
+  .doctor_revenue .MuiButton-outlinedSizeSmall {
+    padding: 5px 9px !important;
+  }
+  /* .doctor_revenue_dashboard .formdiv .selectbox .ant-select-selection--single{
+    border:none !important;
+  } */
+  .doctor_revenue .formdiv .labeltxt{
+    padding-bottom: 0px !important;
+  }
+  .uploadsmasterheader .labeltxt{
+    color:#333 !important; 
+    margin-right:10px !important;
+    margin-bottom: 0px !important;
+    position:relative;
+    top:4px;
+    font-size: 1.5rem !important;
+    
+
+  }
+  .patient_head{
+    width: 22%;
+    position: relative;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  .doctor_patienttype .formdiv {
+    width:35%;
+
+  }
+  .doctor_patienttype{
+    display:flex;
+    align-items: center;
+    
+  }
+  .doctor_revenue .formdiv .selectbox .ant-select-selection--single {
+    padding:0px !important;
+
+  }
+   .doctor_revenue  .doctor_revenueplus-container {
+      display: flex;
+      /* flex-direction: column; */
+      align-items: center;
+      width: 50%;
+      justify-content: space-between;
+  }
+  .plus-icon{
+   cursor: pointer;   
+   margin-left: 10px;
+  }
+  .uploadsmasterheader{
+      width:100%;
+      background-color: #F8F8F8;
+      padding: 10px;
+      
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  
+  .clinic_details
+  {
+    color:white !important;
+    font-size: 12px !important;
+    background-color:rgb(82, 118, 238) !important;
+    border:none;
+    padding:8px;
+     
+    
+  }
+  .clinic_details:focus{
+    background-color:#303f9f !important;
+    }
+  /* .clinic_details
+  {
+    color:white !important;
+    font-size: 1.5rem !important;
+    
+    border:none;
+      font-family: 'Avenir-Black';
+    padding:8px;
+    
+  } */
+  
+  .clinic_group_details .MuiButton-root {
+    text-transform:none !important;
+    border-radius: none !important;
+    padding:5px 15px !important;
+  
+  } 
+  .clinic_date_details
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .currentdate{
+      font-size: 1.25rem;
+  }
+  /* .doctor_revenue .formdiv{
+     display:flex !important;
+  } */
+  .doctor_revenue .MuiButtonGroup-root {
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+}
+.current_left{
+  margin-right:5px;
+}
+.current_right{
+  margin-left: 5px;
+}
+.group_buttons_div{
+  display:flex;
+  align-items: center;
+}
+.currentdate{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.patient_type_div{
+  display:flex;
+  align-items: center; 
+}
+.revenueclinic_container{
+  margin-left: 10px;
+}
+.dynalign {
+  position: absolute;
+  right: 30px;
+}
+
+.revenueTotal{
+  float: right;
+  position: relative;
+  bottom: 80px;
+  right: 115px;
+  width: 211px;
+  background: #86b149;
+  height: 40px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  display: flex;
+  /* border-radius: 3px;
+  box-shadow: 1px 3px 5px 1px rgba(0,0,0,0.75);
+  font-weight: 600; */
+}

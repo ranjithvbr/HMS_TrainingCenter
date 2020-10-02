@@ -1,0 +1,139 @@
+.daterangeMaster {
+    z-index: 1;
+    position: absolute;
+}
+
+.daterangeMaster .rdrDateRangePickerWrapper {
+    border: 1px solid #c3bbbb;
+    border-radius: 3px;
+}
+
+.daterangeMaster .rdrDefinedRangesWrapper, .daterangeMaster .rdrDateRangeWrapper {
+    border-radius: 3px;
+}
+
+.daterangeMaster .rdrDefinedRangesWrapper {
+    border: 1px solid #c3bbbb;
+    border-left: none;
+    background-color: #eff2f7;
+}
+
+.daterangeMaster .rdrDefinedRangesWrapper button {
+    background-color: inherit;
+}
+
+
+.rangePicker_Master {
+
+    display: flex;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.rangePicker_Label {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: #6e6f6f;
+}
+
+.rangePicker_Master .formdiv {
+    margin-top: 20px;
+    height: 51.5px;
+}
+.daterange_calendar{
+    position: relative;
+}
+
+.rangePicker_Master .brdrcls {
+    height: 30px;
+    width: 245px !important;
+    padding-inline-start: 15px !important;
+    font-size: 13.5px;
+    color: #7d7a7a;
+}
+
+.rangePicker_Master input::placeholder {
+
+    color: #ccc;
+}
+
+.rangePicker_Master input {
+    cursor: pointer;
+}
+
+.rangePicker_Calendericon {
+    /* z-index: 9999999; */
+    color: gray;
+    position: relative;
+   right: 28px;
+}
+
+.rangePicker_Calendericon:hover {
+    background-color: #e6dfdf;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.rangePicker_InpputIconAlign {
+    display: flex;
+    align-items: center;
+}
+
+.rangePicker_cancelbtn {
+    font-size: 12px !important;
+    background-color: #b3b3b3 !important;
+    color: #333 !important;
+    margin-right: 20px !important;
+    border-radius: 4px !important;
+    height: 25px;
+}
+
+.rangePicker_okbtn {
+    background-color: #eb7826 !important;
+    color: #fff !important;
+    font-size: 12px !important;
+    border-radius: 4px !important;
+    height: 25px;
+    margin-right: 20px !important;
+}
+
+.rangePicker_btncontainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid #c3bbbb;
+    height: 35px;
+    background-color: #eff2f7;
+    border-top: none;
+}
+
+.daterangeMaster .rdrMonthAndYearWrapper {
+    height: 35px;
+    padding-top: 0px;
+}
+
+.daterangeMaster .rdrDefinedRangesWrapper {
+    width: 185px;
+    border-bottom: none;
+    border-top: none;
+}
+
+.daterangeMaster .rdrCalendarWrapper {
+    font-size: 11.5px;
+}
+
+.rangePicker_positionCenter {
+    position: relative;
+    z-index: 1300;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+}
+
+@media screen and (max-width: 883px) {
+    .daterangeMaster .rdrCalendarWrapper {
+        font-size: 9px;
+    }
+}

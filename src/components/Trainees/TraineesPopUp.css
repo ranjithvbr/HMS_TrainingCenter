@@ -1,0 +1,71 @@
+
+.label_trainerpopup
+{
+    margin-bottom:5px !important;
+    font-family: 'Avenir-Black' !important;
+    font-size: 1.7rem !important;
+
+ }
+ .label_trainerpopup_container
+ {
+   margin-bottom: 10px;
+ }
+ .excel_dropdowntrainer
+   {
+ 	font-family:'Avenir-Black' !important;
+    color:rgba(0,0,0,0.65) !important;
+   	font-size:15px;
+   	width:100% !important;
+   }
+   .popup_buttondiv
+   {
+   	display: flex;
+   	align-items: center;
+   	justify-content: flex-end;
+      margin-top:20px;
+   }
+   .cancel_button
+   {
+   	margin-right: 15px !important;
+   	font-family:'Avenir-Black' !important;
+   	line-height: 2.5rem !important;
+   	background-color:#ccc !important;
+   	font-size: 1.75rem !important;
+
+   }
+   .cancel_button .ant-btn
+   {
+      height :35px !important;
+   }
+   .create_button
+   {
+   	 	border-radius: 4px !important;
+   	 	color:white !important;
+   	 	font-family:'Avenir-Black' !important;
+
+         line-height:2.5rem !important;
+         font-size: 1.75rem !important;
+   }
+   .cancel_button .ant-btn:hover, .ant-btn:focus
+   {
+      color:none !important;
+      border-color: none !important;
+   }
+   .tag_close
+   {
+   	  font-size: 1.5rem !important;
+   	  background-color: #fff !important;
+   	  height:35px !important;
+   	  font-size: 1.5rem !important;
+   }
+   .closable_closebuttons .ant-tag .anticon-close {
+   	   font-size: 20px !important;
+   	   line-height: 32px !important;
+   	   margin-left: 15px !important;
+   	   font-family:'Avenir-Black' !important;
+   }
+ 
+ /*  .trainerpopup_container
+   {
+   	margin:15px;
+   }*/

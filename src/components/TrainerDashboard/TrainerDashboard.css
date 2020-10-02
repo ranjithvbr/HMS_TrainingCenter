@@ -1,0 +1,235 @@
+.active-check {
+  margin-left: 10px;
+}
+.head-icon-2 {
+  height: 20px;
+}
+.head-icons {
+  font-size: 2rem;
+}
+.react-icon-eyeview {
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.MuiMenuItem-gutters {
+  font-size: 1.25rem !important;
+}
+.cell_eye {
+  padding-left: 20px !important;
+}
+.ordericon-container {
+  width: 18px;
+  height: auto;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.ordericon {
+  width: 100%;
+  height: 100%;
+}
+.react-icon-mob {
+  font-size: 2rem !important;
+  width: 13px;
+  fill: #333 !important;
+}
+.nurse_dash_bottom_buttons {
+  margin-left: 20px !important;
+  box-shadow: 11px 23px 16px -30px black;
+}
+.nurse_dash_bottom_buttons .MuiButton-label{
+
+  font-size: 18px !important;
+  padding: 0 18px;
+}
+.nurse_dash_bottom1 {
+  color: #ec3a32 !important;
+  border: 1px solid !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
+  box-shadow: 0px 0px 2px #ec3a32;
+  width: 210px !important;
+  text-transform: none !important;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  height: 47px !important;
+}
+.nurse_dash_bottom2 {
+  color: #eb1e68 !important;
+  /* font-weight: 600 !important; */
+  font-size: 18px !important;
+  text-transform: none !important;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  border: 1px solid #ea2367 !important;
+  border-radius: 5px !important;
+  width: 210px !important;
+  height: 47px !important;
+}
+.nurse_dash_bottom3 {
+  color: #a42ab8 !important;
+  border: 1px solid !important;
+  /* font-weight: 600 !important; */
+  font-size: 18px !important;
+  box-shadow: 0px 0px 2px #a42ab8;
+  text-transform: none !important;
+  box-shadow: 0px 3px 6px #00000029 !important;
+  height: 47px !important;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #9c28b1 !important;
+  border-radius: 5px !important;
+}
+.page_button_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.nurse_dashboard_buttons_wrap {
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+}
+.nurse_button_common_styles {
+  display: block;
+  justify-content: center;
+  height: 126px;
+  width: 230px;
+  border-radius: 7px !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-size: 1.5rem !important;
+}
+.dashboard_card_container_green {
+  background: transparent linear-gradient(242deg, #83ae40 0%, #a2f622 100%) 0%
+    0% no-repeat padding-box;
+  align-items: center;
+}
+.dashboard_card_container_yellow {
+  background: transparent linear-gradient(245deg, #fec107 0%, #ffa827 100%) 0%
+    0% no-repeat padding-box;
+  align-items: center;
+}
+.dashboard_card_container_pinky {
+  background: transparent linear-gradient(64deg, #ee534f 0%, #ec407a 100%) 0% 0%
+    no-repeat padding-box;
+  cursor: pointer;
+}
+.nurse_button4 {
+  background-color: #ff4747 !important;
+  cursor: pointer;
+}
+.dashboard_card_container_darkgreen {
+  align-items: center;
+  background: transparent linear-gradient(245deg, #00887a 0%, #4cb050 100%) 0%
+    0% no-repeat padding-box;
+}
+.nurse_button_text {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+  color: #fff;
+  text-decoration: none !important;
+  font-size: 16px !important;
+}
+.nurse_dash_sidehead {
+  font-size: 1.5rem !important;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.divider_container {
+  display: flex;
+  justify-content: center;
+}
+.divider_1px {
+  height: 0.5px;
+  border-radius: 20%;
+  width: 85%;
+  background-color: #ffffff;
+}
+.dash_buttons_container {
+  display: flex;
+  justify-content: space-between;
+  bottom: 45px;
+  top:-48px;
+}
+.nurse_dash_numeric_wrap {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.nurse_dash_numeric_value {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.close_action {
+  border-radius: 50%;
+  color: #f86185;
+  font-size: 1.65rem;
+  cursor: pointer;
+}
+.action-eye {
+  margin-right: 12px;
+  font-size: 2rem;
+  color: #3b6bed;
+  cursor: pointer;
+}
+.today_Appointments {
+  padding: 15px 0px 0px 15px;
+  font-size: 1.5rem !important;
+  color: #545454 !important;
+  font-weight: bold;
+  margin-bottom: 0px !important;
+
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px !important;
+}
+.current_date {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  font-weight: 200;
+}
+.head-icon {
+  height: 20px;
+}
+.dash_butt{
+  position: relative;
+  top:-76px;
+}
+@media only screen and (max-width: 1125px) {
+  .nurse_button_common_styles {
+    height: 100px;
+    width: 24%;
+  }
+  .nurse_dash_numeric_wrap {
+    margin-top: 8px;
+  }
+  .dash_buttons_container {
+    bottom: 0;
+    padding-bottom: 15px !important;
+  }
+}
+@media only screen and (max-width: 959px){
+  .dash_buttons_container{
+     position: inherit;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .nurse_button_text {
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  .nurse_dash_numeric_wrap {
+    margin-top: 5px;
+  }
+}
+
+
+
+
+

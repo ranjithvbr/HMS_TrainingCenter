@@ -1,0 +1,86 @@
+
+
+    .MuiTablePagination-select {
+        padding-left: 8px !important;
+        padding-right: 24px !important;
+    }
+    .MuiTablePagination-caption {
+    font-size:1.5rem !important;
+    font-family: 'Avenir-Black' !important;
+ 
+  }
+    .MuiInputBase-input {
+    padding-bottom: 10px !important;
+    ;
+
+}
+.ant-popover-message-title {
+    font-family: 'Avenir-Black';
+}
+.ant-popover-buttons {
+    font-family: 'Avenir-Black';
+}
+.active-checkbox{
+    padding:4px !important;
+}
+.ordericon-container{
+width:18px;
+height:auto;
+cursor: pointer;
+margin-left: 10px;
+}
+.ordericon{
+    width:100%;
+    height:100%
+}
+.active-check{
+margin-left: 10px;
+}
+.UserGroup-Description{
+    padding-left: 50px !important;
+}
+.clients-coloreyeview{
+    width:30px;
+    height: auto;
+     fill:#3f51b5 !important ;
+    cursor: pointer;
+    font-size: 2rem !important;
+    margin-left: 10px;
+}
+
+.ant-select .trainer_selectbox
+{
+     font-family: 'Avenir-Black' !important;
+     padding:15px !important;
+     color:red !important;
+}
+.trainer_selectbox_container
+{
+    font-family: 'Avenir-Black' !important;
+     padding:15px 15px 0px 15px  !important;
+     display: flex;
+    
+}
+.trainer_selectbox_container .ant-select-selection
+{
+    background-color: #cccccc29 !important;
+    border-radius: 0px !important;
+    border:none !important;
+    font-size: 1.5rem !important
+  /*   color: #b5abab;*/
+    
+
+}
+.totaltraines
+{
+    margin-left: 10px;
+    font-family: 'Avenir-Black' !important;
+   display: inline-flex;
+   font-size: 1.5rem;
+   align-items: center;
+       color: #b5abab;
+}
+/*.MuiInputBase-root 
+{
+    top:10px !important;
+}*/

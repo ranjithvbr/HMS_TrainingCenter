@@ -1,0 +1,113 @@
+.ant-tabs-bar {
+ border-bottom: 0px !important;
+}
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #86b149 !important;
+}
+.ant-tabs-nav {
+    font-size: 2.5rem !important;
+}
+.ant-tabs-nav .ant-tabs-tab:active {
+    color: #096dd9;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color: none !important;
+}
+.ant-tabs-ink-bar{
+    height:4px !important;
+    background-color: #86b149 !important;
+
+}
+.ant-tabs-nav-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px !important;
+}
+.ant-tabs-nav-container{
+    border-bottom: 2px dashed grey !important;
+    margin: 20px;
+}
+/*.ant-tabs-nav .ant-tabs-tab{
+    padding:16px 25px !important
+}*/
+/* .ant-tabs .ant-tabs-top-content
+{
+    padding:20px;
+} */
+.firstpaper_test{
+padding:10px;
+font-size: 1.75rem !important;
+margin-bottom: 10px;
+border-radius: 0px !important;
+border-radius: 0px !important;
+
+
+}
+.firstpaper_test:hover{
+    box-shadow: 0px 1px 15px #82AE3F94;
+}
+.test_report{
+    font-size: 22px !important;
+    font-weight: 600;
+}
+.date_view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view{
+    color:#86b149;
+}
+.reportcontainer{
+    padding:10px;
+    overflow-y: scroll;
+  
+    height:370px;
+
+}
+.report_view_div{
+    width:50%;
+    padding: 20px;
+    font-size: 18px;
+    background-color:rgb(248, 248, 248) ;
+    font-weight: 600;
+}
+.report_view_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+.report_image{
+    width:100%;
+    height:auto;
+}
+.prescription_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50%;
+    
+}
+.report_container{
+    background-color: rgb(248, 248, 248);
+    padding:20px;
+    margin: 15px;
+}
+.pres_date{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+   
+}
+.ant-tabs-nav{
+    font-size: 22px !important;
+    font-weight: 100 !important;
+}
+@media screen and (max-width: 959px){
+.report_view_div{
+    width:100%;
+}
+}

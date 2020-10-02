@@ -1,0 +1,196 @@
+/* .formdiv{
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	position: relative;
+}
+
+.formdiv .labeltxt{
+    color:#666666;
+    display: block;    
+    font-size: 15px;
+   
+}
+.formdiv .brdrcls{
+    width: 100% !important;
+    padding: 6px;
+    border: none;
+    outline: 0;
+    font-size: 1.25rem !important;
+    border-radius: 2px !important;
+    border: 1px solid #ccc;
+    font-family: "Roboto" !important;
+}
+.formdiv .MuiFormControl-root .MuiTextField-root .MuiFormControl-marginNormal{
+    box-shadow: transparent;
+}
+.formdiv .radiobtncolor{
+	color:#82af3f !important;
+}
+.formdiv .datepickerchnge input {
+	width:100% !important;
+	padding: 20px;
+	border-radius: 0px;
+
+}
+.formdiv .selectbox .ant-select-selection--single{
+	
+	height: unset !important;
+    padding: 4px;
+    outline: 0;
+    border-radius: 2px !important;
+    border: 0;
+    border: 1px solid #ccc;
+    font-family: "Roboto" !important;
+}
+.formdiv .selectbox {
+	width:100% !important;
+	border-radius: 0;
+	outline:unset;
+    
+}
+.formdiv .ant-select-selection__rendered {
+    position: relative;
+    display: block;
+    margin-right: 0;
+    margin-left: 11px;
+    line-height: 30px;
+}
+.formdiv .ant-select-search--inline .ant-select-search__field{
+border: none;
+    box-shadow: none;	
+}
+.formdiv .ant-select-search__field__wrap input{
+padding-left: 0px;
+}
+.formdiv .Errormsg{
+	font-size: 12px;
+    position: absolute;
+    left: 2px;
+    color: red;
+}
+.ant-select-dropdown{
+    z-index:1400;
+}
+.ant-calendar-picker {
+    z-index:1410;
+}
+.ant-calendar-picker-container{
+    z-index:1410 !important;
+}
+ .formdiv .MuiFormControl-marginNormal{
+    margin-top: 0px !important
+}
+.formdiv .MuiFormControl-marginNormal{
+    margin-top: 0px !important;
+    border:1px solid #ccc !important;
+    border-radius: 2px !important;
+    width:100%;
+}
+.formdiv .MuiInputBase-input{
+    font-size:1.25rem !important;
+    font-family: 'Avenir-Black' !important;
+    color:grey !important;  
+    margin-left: 5px !important;
+    border-radius: 2px;
+    font-family: "Roboto" !important;
+}
+.MuiInput-underline:before
+{
+  border-bottom:0px !important;
+}
+.MuiInput-underline:after{
+    border-bottom: 0px !important;
+}
+.MuiFormControl-marginNormal {
+    margin-bottom: 0px !important;
+}
+.radiobtncolor{
+    font-family: "Roboto";
+} */
+
+
+.formdiv {
+    /* display: inline-block; */
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+.formdiv .labeltxt {
+    color: #666666;
+    display: block;
+    font-size: 14px;
+    font-weight: 100;
+}
+.formdiv .brdrcls {
+    width: 100%;
+    padding: 4px;
+    border: none;
+    outline: 0;
+    /*  font-size:1.5rem;*/
+    box-shadow: 0 0 1.5px 0px #ccc;
+    border: 1px solid #ccc;
+    border-radius: 2px !important;
+}
+.formdiv .brdred{
+    border: 1px solid red;
+}
+.formdiv .MuiFormControl-root .MuiTextField-root .MuiFormControl-marginNormal {
+    box-shadow: transparent;
+}
+.formdiv .radiobtncolor {
+    color: #82AF3F !important;
+}
+.formdiv .datepickerchnge input {
+    width: 100% !important;
+    padding: 20px;
+    border-radius: 0px;
+}
+.formdiv .selectbox .ant-select-selection--single {
+    height: unset !important;
+    /* padding: 4px; */
+    outline: 0;
+    border-radius: 3px;
+    border: 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 1.5px 0px #ccc;
+}
+.formdiv .selectbox {
+    /*   z-index: 1400  !important;*/
+    width: 100% !important;
+    border-radius: 0;
+    outline: unset;
+}
+.formdiv .ant-select-selection__rendered {
+    position: relative;
+    display: block;
+    margin-right: 0;
+    margin-left: 11px;
+    line-height: 30px;
+}
+.formdiv .ant-select-search--inline .ant-select-search__field {
+    border: none;
+    box-shadow: none;
+}
+.formdiv .ant-select-search__field__wrap input {
+    padding-left: 0px;
+}
+.formdiv .Errormsg {
+    font-size: 12px;
+    margin-top: 4px;
+    color: red;
+    height: 15px;
+}
+.ant-select-dropdown {
+    z-index: 1400;
+}
+.ant-calendar-picker {
+    z-index: 1410;
+}
+.ant-calendar-picker-container {
+    z-index: 1410 !important;
+}
+.formdiv .MuiFormControl-marginNormal {
+    margin-top: 0px !important
+}
+

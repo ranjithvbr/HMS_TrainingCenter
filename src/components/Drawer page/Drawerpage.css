@@ -1,0 +1,947 @@
+/* body{
+    background-color: #fafafa ;
+}.MuiAppBar-colorPrimary {
+    Background-color:white !important
+}
+
+.MiniDrawer-menuButton-4  {
+    margin-left: 100px !important;
+     
+    margin-right: 0px !important;
+}
+.drawer-logo-container{
+    position: fixed;
+    top: 0;
+    left: 5px;
+width:70px;
+height:auto;
+}
+.logo{
+    width: 100%;
+    height:auto;
+}
+
+.icon-container {
+        width: 100%;
+        height:auto;
+    }
+.icon{
+        width:33px;
+        height:auto;
+        
+    }
+    
+    .notification-icon{
+        width:35px;
+        height: auto;
+        
+    }
+    .notification{
+        padding-top: 5px;
+        width:80%;
+        height:auto;
+    }
+    .MuiBadge-colorSecondary {
+        
+        background-color: rgb(131 175 64) !important;
+    }
+    .MuiBadge-anchorOriginTopRightRectangle {
+        top: 6px !important;
+        right: 20px !important;
+    }
+    .MuiBadge-dot {
+        height: 8px !important;
+        padding: 0;
+        min-width: 8px !important;
+    }    
+
+    .list-icons .MuiTypography-body1 {
+       
+         font-size: 1.5rem !important;
+    }
+.btn-my_style:focus{
+    box-shadow:none !important;
+}
+.MuiTablePagination-input{
+    font-size: 1.5rem !important;
+  
+
+
+}
+.MuiTablePagination-selectIcon {
+    top: 1px;
+    font-size: 2.5rem !important;
+}
+.MuiList-padding {
+    padding-bottom: 2px !important;
+}
+.MuiListItem-gutters {
+    font-size: 1.25rem !important;
+  
+}
+.btn-my_style:active{
+    outline:none !important;
+}
+
+.MuiTypography-body1 {
+    font-size: 1.5rem !important;
+  
+
+}
+    .dropdown-container{
+     width: 100%;
+     height: auto;
+     
+    }
+
+    .dropdown-container .dropdown{
+        width:97%;
+        display: flex !important;
+    justify-content: flex-end;
+}
+    #dropdown-basic{
+    font-size:1.75rem;
+    box-sizing: border-box;
+    border-left: 1.5px solid #b1b1b1;
+    padding-left:10px;
+
+}
+#dropdown-basic:hover{
+    background-color: #fafafa
+}
+.dropdown-menu{
+font-size: 1.75rem;
+}
+
+
+.MuiPaper-root{
+    color: grey !important;
+}
+.date-wrapper1{
+    width:100%;
+    height:auto;
+   
+}
+.date-wrapper2{
+    width:96%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+    .date {
+        font-size: 1rem;
+    }
+    .dropdown-container_close{
+
+     width: 100%;
+    height: auto;
+    }
+    .dropdown-container_close .dropdown{
+        width:96%;
+        display: flex !important;
+    justify-content: flex-end;
+}
+    .dropdown-container_close #dropdown-basic{
+        font-size:1.75rem;
+        box-sizing: border-box;
+        border-left: 1.5px solid #b1b1b1;
+        padding-left:10px;
+    
+    }
+    .dropdown-container_close .date-wrapper1{
+        width:100%;
+        height:auto;
+       
+    }
+    .dropdown-container_close .date-wrapper2{
+        width:95%;
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+
+   .drawerpage_container .MuiAvatar-root {
+    position: absolute !important;
+    right: 10px;
+    box-shadow: 0px 0px 5px #333333a6;
+    }
+    .MuiListItem-gutters {
+        padding-bottom: 16px !important
+    }
+    .dropdown-menu{
+        font-size: 1.50rem;
+
+    }
+    .drawerpage_container button:focus{
+        outline: 0px !important;
+    }
+    
+    .appbar_sideicons .MuiListItem-button:hover{
+        color: #86B149;
+     }
+     .appbar_sideicons .MuiListItem-button:focus{
+      text-decoration: none;
+      color: #86B149;     
+      outline: none !important;   
+     }
+     .appbar_sideicons .MuiMenuItem-root:hover path  {
+        fill: #86b149 ;
+     }
+    
+     .appbar_sideicons .MuiMenuItem-root:focus path  {
+        fill: #86b149 ;
+     }
+     .appbar_sideicons .MuiMenuItem-root:hover rect  {
+        fill: #86b149 ;
+     }
+     .appbar_sideicons .MuiMenuItem-root:focus rect  {
+        fill: #86b149 ;
+     }
+     
+     
+
+     
+
+.drawerpage_container .MuiDrawer-paper{
+     box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+                 0px 4px 5px 0px rgba(0,0,0,0.14),
+                 0px 1px 10px 0px rgba(0,0,0,0.12) !important;
+    }
+    .MiniDrawer-appBar-2 
+    {
+        z-index: 1201 !important;
+    }
+    
+    
+    
+    
+
+    @media only screen and (max-width: 1165px){
+        .img{
+            width:85%;
+        }
+       
+           .dropdown-container_close .dropdown{
+               width:94%;
+               display: flex !important;
+           justify-content: flex-end;
+       }
+      
+           .dropdown-container_close .date-wrapper2{
+               width:93%;
+               display: flex;
+               justify-content: flex-end;
+              
+           
+           }
+    }
+    @media only screen and (max-width: 959px){
+        .img{
+            width:85%;
+        }
+       
+           .dropdown-container_close .dropdown{
+               width:93%;
+               display: flex !important;
+           justify-content: flex-end;
+       }
+      
+           .dropdown-container_close .date-wrapper2{
+               width:92%;
+               display: flex;
+               justify-content: flex-end;
+          
+           
+           
+           }
+    }
+    @media only screen and (max-width: 875px){
+        .dropdown-container .dropdown{
+         width:95%;
+        }
+        .date-wrapper2{
+            width:94%;
+        }
+        .dropdown-container_close .dropdown{
+            width:91%;
+            display: flex !important;
+        justify-content: flex-end;
+    }
+   
+        .dropdown-container_close .date-wrapper2{
+            width:90%;
+            display: flex;
+            justify-content: flex-end;
+           
+        
+        }
+        
+    }
+    @media only screen and (max-width: 720px){
+        .dropdown-container .dropdown{
+            width:94%;
+           }
+       
+         .date-wrapper2{
+            width:92%;
+        }
+    }
+  
+    @media only screen and (max-width: 632px){
+        .dropdown-container .dropdown{
+            width:93%;
+           }
+       
+         .date-wrapper2{
+            width:91%;
+        }
+        .dropdown-container_close .dropdown{
+            width:90%;
+            display: flex !important;
+        justify-content: flex-end;
+    }
+   
+        .dropdown-container_close .date-wrapper2{
+            width:89%;
+            display: flex;
+            justify-content: flex-end;
+         
+        
+        
+        }
+    }
+   
+    @media only screen and (max-width: 608px){
+        .dropdown-container .dropdown{
+          width:91%;
+        }
+        .date-wrapper2{
+            width:89%;
+        }
+        .dropdown-container_close .dropdown{
+            width:88%;
+            display: flex !important;
+        justify-content: flex-end;
+    }
+   
+        .dropdown-container_close .date-wrapper2{
+            width:86%;
+            display: flex;
+            justify-content: flex-end;
+           
+        
+        }
+    }
+    @media only screen and (max-width: 550px){
+        .dropdown-container .dropdown{
+          width:89%;
+        }
+        .date-wrapper2{
+            width:86%;
+        }
+    }
+    @media only screen and (max-width: 518px){
+        .dropdown-container .dropdown{
+          width:88%;
+        }
+        .date-wrapper2{
+            width:85%;
+        }
+        .dropdown-container_close .dropdown{
+            width:86%;
+            display: flex !important;
+        justify-content: flex-end;
+    }
+   
+        .dropdown-container_close .date-wrapper2{
+            width:84%;
+            display: flex;
+            justify-content: flex-end;
+        
+        
+        }
+    }
+  
+  
+  
+
+
+    @media only screen and (max-width: 455px){
+        .makeStyles-menuButton-4 {
+            margin-left: 50px !important;
+            margin-right: 0px !important;
+        }
+        .dropdown-container .dropdown{
+            width:90%;
+        }
+        .date-wrapper2{
+            width:88%;
+        }
+        .dropdown-container_close .dropdown{
+            width:84%;
+            display: flex !important;
+        justify-content: flex-end;
+    }
+   
+        .dropdown-container_close .date-wrapper2{
+            width:82%;
+            display: flex;
+            justify-content: flex-end;
+          
+        
+        
+        }
+        
+    }
+   
+    
+    @media only screen and (max-width: 372px){
+         .dropdown-container .dropdown{
+            width:86%;
+        }
+        .date-wrapper2{
+            width:85%;
+        }
+        
+    }
+    
+    @media only screen and (max-width: 315px){
+        .makeStyles-menuButton-4 {
+            margin-left: 40px !important;
+            margin-right: 0px !important;
+        }
+        
+    } */
+
+.show .dropdown-menu.show {
+  top: 0px !important;
+  left: 5px !important;
+  min-width: 30rem !important;
+}
+
+.drawerpage_container {
+  position: relative;
+}
+
+.drawer-logo-container button span svg {
+  font-size: 3rem !important;
+}
+
+/* .MuiTypography-body1 {
+        font-size: 14px !important;
+      } */
+
+/* .MuiTypography-body2{
+        font-size: 14px !important;
+      } */
+
+.MuiAppBar-colorPrimary {
+  background-color: white !important;
+}
+
+/* .MuiSvgIcon-root {
+                fill: grey !important;
+                font-size: 1.75rem !important;
+            } */
+
+.MiniDrawer-menuButton-4 {
+  margin-left: 100px !important;
+  margin-right: 0px !important;
+}
+
+.drawer-logo-container {
+  position: fixed;
+  /* top: 0; */
+  left: 5px;
+  width: 70px;
+  /* height: auto; */
+}
+
+.logo {
+  width: 100%;
+  height: auto;
+}
+
+.icon-container {
+  width: 100%;
+  height: auto;
+}
+
+.icon {
+  width: 33px;
+  height: auto;
+  font-size: 2rem !important;
+  fill: #333 !important;
+}
+
+.notification-icon {
+  width: 35px;
+  height: auto;
+}
+
+.notification {
+  padding-top: 5px;
+  width: 80%;
+  height: auto;
+}
+
+.MuiBadge-colorSecondary {
+  background-color: rgb(131 175 64) !important;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle {
+  top: 6px !important;
+  right: 20px !important;
+}
+
+.MuiBadge-dot {
+  height: 8px !important;
+  padding: 0;
+  min-width: 8px !important;
+}
+
+/* .list-icons .MuiTypography-body1 {
+  font-family: "Roboto" !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+} */
+
+.btn-my_style:focus {
+  box-shadow: none !important;
+}
+
+.MuiTablePagination-input {
+  font-size: 1.5rem !important;
+  font-family: "Roboto" !important;
+}
+
+.MuiTablePagination-selectIcon {
+  top: 1px;
+  font-size: 2.5rem !important;
+}
+
+.MuiList-padding {
+  padding-bottom: 2px !important;
+}
+
+.MuiListItem-gutters {
+  font-size: 1.25rem !important;
+  font-family: "Roboto" !important;
+}
+
+.btn-my_style:active {
+  outline: none !important;
+}
+
+.MuiPickersCalendarHeader-dayLabel {
+  font-size: 14px !important;
+}
+
+.MuiPickersDay-day {
+  font-size: 14px !important;
+}
+
+/* .MuiTypography-body1 {
+  font-size: 1.5rem !important;
+  font-family: "Roboto" !important;
+  font-weight: 600 !important;
+} */
+
+.dropdown-container {
+  width: 100%;
+  height: auto;
+}
+
+.dropdown-container .dropdown {
+  width: 97%;
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+#dropdown-basic {
+  font-size: 1.75rem;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  border-left: 1.5px solid #b1b1b1;
+  padding-left: 10px;
+}
+
+#dropdown-basic:hover {
+  background-color: #fafafa;
+}
+
+.dropdown-menu {
+  font-size: 1.75rem;
+  margin-top: 20px !important;
+}
+
+.MuiPaper-root {
+  color: grey !important;
+}
+
+.date-wrapper1 {
+  width: 100%;
+  height: auto;
+}
+
+.date-wrapper2 {
+  width: 96%;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto";
+}
+
+.date {
+  font-size: 1rem;
+}
+
+.dropdown-container_close {
+  width: 100%;
+  height: auto;
+}
+
+.dropdown-container_close .dropdown {
+  width: 96%;
+  display: flex !important;
+  justify-content: flex-end;
+}
+
+.dropdown-container_close #dropdown-basic {
+  font-size: 1.75rem;
+  font-family: "Roboto";
+  box-sizing: border-box;
+  border-left: 1.5px solid #b1b1b1;
+  padding-left: 10px;
+}
+
+.dropdown-container_close .date-wrapper1 {
+  width: 100%;
+  height: auto;
+}
+
+.dropdown-container_close .date-wrapper2 {
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto";
+}
+
+.drawerpage_container .MuiAvatar-root {
+  position: absolute !important;
+  right: 10px;
+  top: 15px;
+}
+
+.MuiListItem-gutters {
+  padding-bottom: 16px !important;
+}
+
+.dropdown-menu {
+  font-family: "Roboto";
+  font-size: 1.5rem;
+}
+
+.drawerpage_container button:focus {
+  outline: 0px !important;
+}
+
+.appbar_sideicons .MuiListItem-button:hover {
+  color: #86b149;
+}
+
+.appbar_sideicons .MuiListItem-button:focus {
+  text-decoration: none;
+  color: #86b149;
+  outline: none;
+}
+
+.appbar_sideicons .MuiMenuItem-root:hover path {
+  fill: #86b149;
+}
+
+.appbar_sideicons .MuiMenuItem-root:focus path {
+  fill: #86b149;
+}
+
+.appbar_sideicons .MuiMenuItem-root:hover rect {
+  fill: #86b149;
+}
+
+.appbar_sideicons .MuiMenuItem-root:focus rect {
+  fill: #86b149;
+}
+
+.drawerpage_container .MuiDrawer-paper {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12) !important;
+}
+
+@media only screen and (max-width: 1165px) {
+  .img {
+    width: 85%;
+  }
+  .dropdown-container_close .dropdown {
+    width: 94%;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .dropdown-container_close .date-wrapper2 {
+    width: 93%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+  }
+}
+
+@media only screen and (max-width: 959px) {
+  .img {
+    width: 85%;
+  }
+  .dropdown-container_close .dropdown {
+    width: 93%;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .dropdown-container_close .date-wrapper2 {
+    width: 92%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+  }
+}
+
+@media only screen and (max-width: 875px) {
+  .dropdown-container .dropdown {
+    width: 95%;
+  }
+  .date-wrapper2 {
+    width: 94%;
+  }
+  .dropdown-container_close .dropdown {
+    width: 91%;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .dropdown-container_close .date-wrapper2 {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .dropdown-container .dropdown {
+    width: 94%;
+  }
+  .date-wrapper2 {
+    width: 92%;
+  }
+}
+
+@media only screen and (max-width: 632px) {
+  .dropdown-container .dropdown {
+    width: 93%;
+  }
+  .date-wrapper2 {
+    width: 91%;
+  }
+  .dropdown-container_close .dropdown {
+    width: 90%;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .dropdown-container_close .date-wrapper2 {
+    width: 89%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+  }
+}
+
+@media only screen and (max-width: 608px) {
+  .dropdown-container .dropdown {
+    width: 91%;
+  }
+  .date-wrapper2 {
+    width: 89%;
+  }
+  .dropdown-container_close .dropdown {
+    width: 88%;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .dropdown-container_close .date-wrapper2 {
+    width: 86%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .dropdown-container .dropdown {
+    width: 89%;
+  }
+  .date-wrapper2 {
+    width: 86%;
+  }
+}
+
+@media only screen and (max-width: 518px) {
+  .dropdown-container .dropdown {
+    width: 88%;
+  }
+  .date-wrapper2 {
+    width: 85%;
+  }
+  .dropdown-container_close .dropdown {
+    width: 86%;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .dropdown-container_close .date-wrapper2 {
+    width: 84%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .makeStyles-menuButton-4 {
+    margin-left: 50px !important;
+    margin-right: 0px !important;
+  }
+  .dropdown-container .dropdown {
+    width: 90%;
+  }
+  .date-wrapper2 {
+    width: 88%;
+  }
+  .dropdown-container_close .dropdown {
+    width: 84%;
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .dropdown-container_close .date-wrapper2 {
+    width: 82%;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Roboto";
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .dropdown-container .dropdown {
+    width: 86%;
+  }
+  .date-wrapper2 {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 315px) {
+  .makeStyles-menuButton-4 {
+    margin-left: 40px !important;
+    margin-right: 0px !important;
+  }
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transform: translate3d(921px, 34px, 0px);
+  will-change: transform;
+  margin-top: 21px;
+}
+
+.Avatar {
+  margin-top: 10%;
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name_email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.dropdown-img {
+  display: flex;
+  justify-content: center;
+}
+
+.hamburger_icon {
+  margin-left: 100px;
+}
+
+.profile_logout_privacy {
+  display: flex;
+  align-items: center;
+  font-family: "Roboto" !important;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #c6c4c4;
+  padding: 10px;
+}
+
+.profile_logout_butt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 10px;
+  font-family: "Roboto" !important;
+  color: #333 !important;
+}
+
+.profile_logout_butt p {
+  color: #333 !important;
+}
+
+.logout_butt {
+  box-shadow: 0 0 2px 0px #ccc;
+  font-family: "Roboto" !important;
+  font-size: 1.25rem !important;
+  color: #333 !important;
+  padding: 8px 12px !important;
+  box-shadow: 0 0 2px;
+}
+
+.profile_logout_butt p {
+  margin-bottom: 0px !important;
+}
+
+.appbar_sideicons .MuiMenuItem-root {
+  padding-top: 4px !important;
+}
+
+.appbar_sideicons .MuiListItem-gutters {
+  padding-bottom: 18px !important;
+}
+
+.appbar_sideicons {
+  overflow-y: scroll;
+  border-top: 1px solid #e0e0e0;
+}
+
+.activecolor .MuiTypography-root {
+  color: #86b149 !important;
+  /* font-weight: 600; */
+}
+
+.activecolor path {
+  fill: #86b149;
+}
+
+.appbar_sideicons .MuiTypography-body1{
+  font-weight: 100;
+  color: #636363;
+  font-size: 1.5rem !important;
+}

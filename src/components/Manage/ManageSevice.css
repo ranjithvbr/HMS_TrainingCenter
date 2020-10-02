@@ -1,0 +1,129 @@
+.service_type_container{
+    padding: 15px;
+    width: 100%;
+  }
+  .service_div{
+    width: 50%;
+  }
+  .clinicbutton-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+  }
+  
+  .manageCancel{
+    font-size: 1.25rem !important;
+    background-color: rgb(201, 201, 201) !important;
+    margin-right: 20px !important;
+    padding:6px 16px !important;
+    font-weight: 600 !important;
+    text-transform:none !important;
+  }
+  .manageSubmit{
+    font-size: 1.25rem !important;
+    background-color: rgb(38, 128, 235) !important;
+    color:#fff !important;
+    padding:6px 16px !important;
+    font-weight: 600 !important;
+    text-transform:none !important;
+  }
+  .font_add{
+    width: 100px !important;
+    text-align: left;
+    font-size: 1.75rem;
+    color: #86b149;
+    font-weight: bold;
+  }
+  .trainer_popup_details {
+    width:400px !important;
+  }
+  .addpackage_modal .MuiDialog-paperWidthSm
+  {
+    min-width: 95% !important;
+    min-height: 95% !important;
+  }
+  /* .addpackage_modal{
+    z-index: 9999999 !important;
+  } */
+  @media only screen and (max-width: 768px){
+    .addpackage_modal .MuiDialog-paperWidthSm
+  {
+    width:60% !important;
+  }
+  }
+  .top_addpackage{
+    margin-top: 9%;
+  }
+  .width_training{
+    width:70% !important;
+  }
+  .manage_add{
+    font-size: 1.25rem !important;
+    background-color: rgb(38, 128, 235) !important;
+    color:#fff !important;
+    padding:6px 16px !important;
+    font-weight: 600 !important;
+    text-transform:none !important;
+  }
+  .add_adjust{
+    display: flex;
+      justify-content: flex-end;
+  }
+  .dotted_line{
+  border-top: dotted;
+  opacity: 0.3;
+  }
+  .card_sizecontent{
+    width: 25%;
+    height: 250px;
+    margin-left: 20px;
+  }
+  .manage_card{
+    width: 100%;
+      height: 100%;
+      background: #FFFFFF 0% 0% no-repeat padding-box;
+      box-shadow: 0px 9px 28px #00000017;
+      border-radius: 8px;
+      opacity: 1;
+  }
+  
+  .iconclose_adjust{
+  border-radius: 10px;
+  padding: 2px;
+  border: 0.75px solid #E12F2F;
+  font-size: 2rem !important;
+  color: #E12F2F;
+  float: right;
+  }
+  .card_training{
+    font-size: 11px;
+  }
+  .card_outdoor{
+    opacity: 1.0;
+    font-size: 11px;
+    font-weight: bolder;
+  }
+  .sessionmodal_border{
+    font-size: 15px !important;
+    margin-left: 23%;
+    border: 2px solid #0DCA59;
+    border-radius: 12px;
+    height: 65% !important;
+    width: 80% !important;
+    margin-top: 4%;
+    background: #0DCA59 0% 0% no-repeat padding-box;
+  }
+  .sessionmodal_color{
+  color: aliceblue;
+  }
+  .formdiv .selectbox .ant-select-selection--single{
+    width: 310px !important;
+  }
+  
+  
+  .div_arrangement{
+    display: flex;
+    max-width: 1300px;
+  }

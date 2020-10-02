@@ -1,0 +1,172 @@
+.uploadsmasterheader{
+  height: auto;
+  width:100%;
+  
+  }
+  .appointment_titleuser{
+    /* width: 20%; */
+  font-size: 18px;
+   color: #86b149;
+   /* font-weight: 600; */
+   display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @media (max-width:1024px){
+    .appointment_titleuser{
+      width: 225px;
+      font-size: 10px;
+
+    }
+  }
+  .appoint_dashboard{
+    position: relative;
+  }
+  .doctorpatient_head{
+  
+    position: relative;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    margin-right: 10px;;
+    margin-bottom: 0px !important;
+    top:3px;
+  }
+  
+  .doctor_patienttype .formdiv {
+    width:35%;
+  }
+  .doctor_patienttype{
+    display:flex;
+    align-items: center;
+    width:47%;
+  }
+  .media_service_head .formdiv .selectbox .ant-select-selection--single {
+    padding:0px !important;
+    height:35px !important;
+    display:flex;
+    align-items: center;
+
+
+  }
+  .header_icons{
+    width: 16px;
+    height: auto;
+    margin-right: 8px;
+    cursor: pointer;
+}
+    .doctorplus-container {
+      width: 80%;
+      display: flex;      
+      align-items: center;
+      justify-content: flex-end;
+     
+  }
+  @media (max-width:1024px){
+    .doctorplus-container {
+      width:90%;
+      display: flex;      
+      align-items: center;
+      justify-content: flex-end;
+    }  }
+  .plus-icon{
+   cursor: pointer;   
+  }
+  .media_service_head{
+    width:100%;
+    display: flex;
+	  padding: 10px 20px;
+	  /* box-shadow: 0px 3px 6px #00000029; */
+	  height:60px;
+     /* font-weight: 600; */
+     justify-content: space-between;
+     align-items: center;
+     background: #F8F8F8 0% 0% no-repeat padding-box;
+     box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+   opacity: 1;
+}
+  
+  
+  .clinic_details:focus{
+    background-color:#0B51C5 !important;
+    }
+  .clinic_details
+  {
+    color:white !important;
+    font-size: 1.5rem !important;
+    border:none;
+    padding:8px; 
+  }
+  
+  
+  .clinic_date_details
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .currentdate_app{
+      font-size: 1.5rem;
+      font-weight: 600;
+      color:#545454 !important;
+      margin: 10px 10px;
+      width: 136px;
+  }
+  .doctor_type_head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .right_arrowicon{
+    font-size: 2.5rem !important;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+  }
+  .group_buttons_div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+
+  .dashboard_master .MuiButtonGroup-root {
+    /* box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important; */
+    box-shadow: 0px 2px 5px #00000033;
+    border-radius: 2px 0px 0px 2px !important;
+    height: 40px !important;
+  }
+  .clinic_group_details .MuiButton-root {
+    text-transform:none !important;
+    border-radius: 0px !important;
+    font-size: 1.5rem !important;
+    padding:5px 15px !important;
+    border: none !important;
+    box-shadow: 0px 2px 5px #00000033 !important;
+  } 
+  .trainer_dashboard_master .MuiButtonGroup-root{
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+  }
+  .clinic_details
+  {
+    color:white !important;
+    font-size: 14px !important;
+    background-color:#468DF0!important;
+    border:none;
+    padding:8px;
+    width:120px !important;  
+    height:42px !important;
+    font-family: "Roboto" !important;
+    
+  }
+  .search_box_container .ant-input{
+    border: 1px solid #D8D8D8 !important;
+    color:#333333 !important;
+    font-family: "Roboto" !important;
+    font-size: 16px !important;
+    font-weight: 100 !important;
+    height: 37px !important;
+  }

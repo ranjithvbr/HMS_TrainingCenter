@@ -1,0 +1,14 @@
+@font-face {
+  /* font-family: 'Roboto-Reqular' !important;
+  src:url('../src/font/ROBOTO/Roboto-Regular.ttf')format('truetype'); */
+}
+body {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Roboto-Reqular' !important; */
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

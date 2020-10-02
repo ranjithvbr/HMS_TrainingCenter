@@ -1,0 +1,24 @@
+
+.text_clr_change{
+    color:#82AE3F !important;
+}
+.title_tag{
+  position: absolute;
+    top: 46px;
+    left: 20px;
+    font-size: 1.25rem;
+}
+.managepackage_plusicon{
+  cursor: pointer;
+  width: 35px;
+  margin-right: 13px;
+  margin-left: 13px;
+
+ 
+}
+
+.manage_package_container {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}

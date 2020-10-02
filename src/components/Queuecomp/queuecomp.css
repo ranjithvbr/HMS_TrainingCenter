@@ -1,0 +1,346 @@
+.queuecomp_container_doctor .queueborder_box
+{
+	width:100%;
+    background-color: #F8F8F8;
+	padding: 5px 20px;
+	box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+	display:flex;
+	height:68px;
+    justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+}
+
+.queuecomp_container_doctor .clinic_container{
+	display:flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: #666666 !important;
+	height:80px;
+}
+.queuecomp_container_doctor  .formdiv .selectbox .ant-select-selection--single
+{
+	width:180px;
+	border: 1px solid #CCCCCC !important;
+	color: #333333 !important;
+
+}
+.walk
+{
+	width: 20px;
+    padding: 5px;
+    background-color:green;
+  
+}
+.queuecomp_container_doctor .headqueue
+{
+    margin-bottom: 0px !important;
+    font-size:1.75rem;
+	 color:rgb(131 175 64) !important;
+	 font-family: "Roboto_Bold";
+	 font-weight: 600;
+}
+.queuecomp_container_doctor .queue_paper
+{
+	border-radius: 0px !important;
+	margin-bottom: 0px !important;
+}
+ .queuecomp_container_doctor .formdiv
+{
+  padding-left: 0px !important;
+}
+.queuecomp_container_doctor .formdiv .MuiInputBase-input {
+    padding:8px !important;
+    }
+
+.queuecomp_container_doctor  .queue_clinic_div
+{
+    width:70%;
+    height:auto;
+
+}
+.queuecomp_container_doctor  .queue_clinic
+{
+	 font-size: 1.5rem !important;
+	 color:none !important;
+}
+.queuecomp_container_doctor  .queue_datepicker
+{
+  
+  font-size:1.5rem;
+}
+.queuecomp_container_doctor .ant-input
+{
+	border-radius: 0px !important;
+}
+.queuecomp_container_doctor  .MuiInput-underline:before {
+    
+    content:none !important;
+    }
+  .queuecomp_container_doctor   .formdiv .MuiFormControl-marginNormal {
+    margin-top: 0px !important;
+    padding-left: 0px !important;
+    border: 1px solid #ccc;
+    width:100% !important;
+    
+}
+.queuecomp_container_doctor  .formdiv .MuiInputBase-input {
+ 	padding:10px;
+	}
+
+.queuecomp_container_doctor  .MuiInput-underline:after {
+    	border-bottom:none !important;
+    }
+.queuecomp_container_doctor    .formdiv  .MuiIconButton-label {
+   	padding-left:7px;
+   }
+.queuecomp_container_doctor    .formdiv .labeltxt {
+   	padding-bottom: 5px !important;
+	font-size: 1.5rem !important;
+
+
+   }
+
+.queuecomp_container_doctor  .Apps
+{
+	
+	  width:18px;
+       height:auto;
+
+}
+.queuecomp_container_doctor .mens
+{
+	width:17px;
+	height:auto;
+	 
+
+}
+.queuecomp_container_doctor .Vips
+{
+	width:10px;
+	height:auto;
+	 
+
+}
+.queuecomp_container_doctor  .labelvip_div
+{
+	padding-left:10px;
+	font-size: 1.25rem;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top:-3px;
+	
+
+
+}
+.walklabelvip_div
+{
+  padding-left:10px;
+	font-size: 1.25rem;
+	display:inline-flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top:-10px;
+	color: #333333;
+	font-size: 12px;
+	 
+}
+.queuecomp_container_doctor  .iconsapp_containter
+{
+	display: flex;
+	width:100%;
+	/* align-items: center; */
+	justify-content:space-around ;
+  
+
+}
+.queue_clinic_datefrom{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100%;
+}
+.queue_clinic_datefrom .formdiv .selectbox {
+	width:80% !important;
+}
+.queuecomp_container_doctor  .queue_clinic_dropdown
+{
+	margin-bottom: 10px;
+	width:100%;
+	height: 100%
+}
+.queuecomp_container_doctor  .App_div
+{
+	margin-bottom: 20px;
+}
+.queuecomp_container_doctor  .Vip_div
+{
+	margin-bottom: 15px;
+}
+.queuecomp_container_doctor  .queue_clinic_container
+{
+	display: flex;
+	align-items: center;
+    width:100%;
+    height:100%;
+}
+.queuecomp_container_doctor  .heading_total
+{
+	padding-top:8px;
+	padding-left: 8px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	
+
+}
+.queuecomp_container_doctor .ant-calendar-picker
+{
+	width:100% !important;
+}
+.queuecomp_container_doctor  .queuepaper_container
+{
+	padding-bottom: 20px;
+}
+.queuecomp_container_doctor .slider_container
+{
+	display: flex;
+}
+.queuecomp_container_doctor .six
+{
+	width:100%;
+	height:100%;
+}
+.queuecomp_container_doctor .valuecheck_griditem2
+{
+	width:100%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.queuecomp_container_doctor .valuecheck_griditem_divpaper 
+{
+	width:100% !important;
+	height:100% !important;
+	border-radius:0px !important;
+    box-shadow: 0px 1px 15px #EAEFF3ED !important;
+}
+.queuecomp_container_doctor .valuecheck_griditem1
+{
+	width:100%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.queuecomp_container_doctor .ant-calendar
+{
+
+}
+.queuecomp_container_doctor  .valuecheck_griditem_div
+{
+  width:100%;
+  height:100%;
+}
+.queuecomp_container_doctor  .valuecheck_griditem_divpaper
+{
+   width:100%;
+   height:100%;
+}
+.queuecomp_container_doctor  .queue_datepicker
+{
+ 
+}
+
+.walk-div
+{
+	    width: 35px;
+    display: inline-flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+.crown_div
+{
+	    width: 35px;
+    display:inline-flex;
+    border-radius: 5px;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    background-color: #ffc107;
+}
+.mens_div
+{
+	width: 35px;
+    display:inline-flex;
+    border-radius: 5px;
+    align-items: center;
+    padding: 5px;
+    justify-content: center;
+    background-color:#e91e63;
+}
+.clinic{
+	font-size: 1.5rem;
+	margin-bottom: 0px !important;
+	margin-right: 10px;
+	margin-top: 5px;
+	color: #666666 !important;
+}
+
+.queuecomp_container_doctor .queue_clinic_div {
+   width:90%;
+  }
+.doctorqueue_container
+{
+	padding: 20px !important;
+}
+@media only screen and (max-width: 768px){
+.queuecomp_container_doctor  .valuecheck_griditem_div
+{
+ 
+  margin-right: 0px;
+}
+.valuecheck_griditem_div {
+    width: 100%;
+    height: 100%;
+}
+.queuecomp_container_doctor  .queue_clinic_div
+{
+    width:100%;
+    height:auto;
+
+}
+}
+
+.app_phone
+{
+    width:35px;
+    /* margin-right: 0px !important; */
+    background-color:#2196f3;
+    display:inline-flex;
+    padding: 5px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.queuecomp_container_doctor .valuecheck_griditem_divpaper
+{
+   width:100%;
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px rgba(24, 144, 255, 0.2)
+
+}
+.queue_clinic_dropdown .ant-select-selection--single 
+{
+	height:40px !important;
+}
+.queuecomp_container_doctor .labelvip_div{
+	color: #333333;
+	font-size: 12px;
+}

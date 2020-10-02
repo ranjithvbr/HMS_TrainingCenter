@@ -1,0 +1,63 @@
+.Dialogmodal .MuiDialogContent-dividers{
+    border-bottom: 0px !important;
+        border-top:0px !important;
+        overflow: scroll;
+    }
+    .Dialogmodal h6{
+            color: #333;
+        font-size: 18px;
+        font-family:"Roboto";
+        /* font-weight: 600; */
+    }
+    .modaldiv .cancelbtn{
+        border-radius: 0;
+        background-color: #f1221a;
+        color:white;
+        box-shadow: 0;
+    }
+    
+    .MuiDialog-paperWidthSm {
+        /* max-width: 600px; */
+        max-width: 70% !important;
+    }
+    .Dialogmodal .MuiDialogTitle-root{
+        box-shadow: 0px 0px 3.5px 0px #ccc;
+        /*border-bottom: 1px solid #ccc;*/
+    }
+    .Dialogmodal .MuiIconButton-root:hover{
+        background-color: transparent;
+    }
+    .Dialogmodal .closebtn{
+        background-color: rgb(201, 201, 201);
+        border-radius: 0px;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        /* padding: 9px; */
+        margin-right: 10px;
+        color: #000;
+        font-size: 13px;
+        width: 90px;
+    }
+    .Dialogmodal .createbtn{
+        background-color: #2580eb;
+        border-radius: 0px;
+        color: rgb(255, 255, 255);
+        text-transform: capitalize;
+        /* padding: 9px; */
+        margin-right: 10px;
+        color: #fff;
+        font-size: 13px;
+        width: 90px;
+    }
+    .Dialogmodal .createbtn:hover {
+        background-color: #2580eb;
+    }
+    /* .Dialogmodal .DialogContent{
+        overflow-y: scroll;
+    } */
+    .modalcomp_closeicon{
+        font-size: 2.5rem !important;
+        color:#333;
+    }
+    
+    

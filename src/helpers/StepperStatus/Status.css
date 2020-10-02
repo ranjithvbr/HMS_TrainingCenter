@@ -1,0 +1,32 @@
+.stepper_container .comp_sta_icon{
+  font-size: 2.5rem !important;
+}
+/* .stepper_container .makeStyles-active-335{
+background: transparent linear-gradient(180deg, #84FCAC 0%, #4FB571 100%) !important;
+}
+.stepper_container .makeStyles-completed-336{
+   background: transparent linear-gradient(180deg, #84FCAC 0%, #4FB571 100%) !important;
+} */
+.stepper_container .MuiStepConnector-alternativeLabel{
+  top:55px !important;
+}
+.stepper_container .top_step{
+  text-align: center;
+  font-size: 10px;
+}
+.MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+font-weight: 600;
+
+
+}
+.MuiStepLabel-label.MuiStepLabel-completed{
+color:#333333 !important;
+font-weight: 600 !important;
+}
+.MuiStepLabel-label.MuiStepLabel-active{
+font-weight: 600 !important;
+}
+.stepper_container .top_step{
+  font-weight: 600;
+  
+}

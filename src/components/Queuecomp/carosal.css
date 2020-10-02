@@ -1,0 +1,430 @@
+
+.imageitem ::selection {
+  background: none !important;
+}
+.prof_img_caro ::selection {
+  background: none !important;
+}
+
+.carousel-control.left 
+{
+    background-image:none !important; 
+  }
+
+.carousel-control.right 
+{
+    background-image:none !important; 
+  }
+  .queueimage
+  {
+  	width:100%;
+    height:100%;
+    border-radius: 50%;
+  }
+  .queueimage_container
+  {
+    width:100%;
+    height:100%;
+  }
+  .second_image
+  {
+  	border-radius: 50%;
+    width:150px;
+    top: 45%;
+    right: 56%;
+    transform:none !important;
+    height:150px;
+    border: 1px solid #fff;
+    bottom: 0px;
+    position: absolute;
+}
+  
+  .third_image
+  {
+       border-radius: 50%;
+    width:150px;
+    border: 1px solid #fff;
+    bottom: 0;
+    top: 45%;
+    right: 53%;
+    height:150px;
+    position: absolute;
+
+
+
+  }
+   .fourth_image
+  {
+  	border-radius: 50%;
+    width:150px;
+    height:150px;
+    bottom: 0;
+    right: 33%;
+    top: 45%;
+    position: absolute;
+    border: 1px solid #fff;
+  }
+   .fivth_image
+  {
+  	border-radius: 50%;
+    width:150px;
+    bottom: 0;
+    top: 45%;
+    right: 40%;
+    height:150px;
+    position: absolute;
+    border: 1px solid #fff;
+  }
+   .sixth_image
+  {
+     border-radius: 50%;
+    width: 150px;
+    top:45%;
+    right:40%;
+    height:150px;
+    /* bottom: 173px; */
+    position:absolute;
+    border: 1px solid #fff;
+    left: 37%;
+  }
+  .first_image
+  {
+    position:relative;
+  }
+ .green_indicators
+ {
+   
+    height: auto important;
+    z-index: 1 !important;
+    top: 48% !important;
+    left: 75% !important;
+    border: 1px solid #fff;
+    position: absolute !important;
+    border-radius: 50% !important;
+ }
+ .greenwalksignal_indicators
+ {
+  
+    z-index: 1 !important;
+    top: 48% !important;
+    left: 14% !important;
+    background-color: #fff;
+    padding: 5px;
+    position: absolute !important;
+    border-radius: 50% !important;
+ }
+ .red_indicators
+ {
+  
+    background-color:#fff;
+    padding: 5px !important;
+    z-index: 1 !important;
+    top: 48% !important;
+    left: 75% !important;
+    position: absolute !important;
+    border-radius: 50% !important;
+ }
+.six
+{
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+
+}
+.sd
+{
+  position:absolute;
+}
+.image1
+{
+  width:20px;
+  height:20px;
+}
+.queue_image
+{
+  width:100%;
+  height:100%;
+  border-radius: 50%;
+}
+  .css-1qzevvg 
+ {
+   top:45% !important;
+   width:100% !important;
+   position:absolute !important; 
+   right: 0 !important;
+
+ }
+ .css-1qzevvg img
+ {
+  margin-left: 15px !important;
+  margin-right:15px !important;
+ }
+
+ .ImageCarouselDynamic
+ {
+  position: relative;
+   box-shadow:-6px -7px 20px -21px;
+  background-color:#f5f5f5;
+  border:none;
+  position: relative;
+
+ } 
+ .image:after{
+  opacity: 0.6 !important;
+}
+ .image1
+ {
+  position:relative;
+ }
+ .right_arrow:hover
+ {
+   fill:rgb(131 175 64);
+ }
+ .right_arrow:active
+  {
+     color:green;
+  }
+ .carosal_arrow
+ {
+position: absolute;
+    top: 200px;
+    right: 35px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    font-size: 55px;
+
+    }
+    .left_arrow{
+    position: absolute;
+    left: 67px;
+    width: 40px;
+    cursor:pointer;
+    color:grey !important;
+}
+.left_arrow:hover
+{
+  fill:rgb(131 175 64);
+}
+
+.left_arrow:active
+{
+  color:green;
+}
+.crown_indicators
+{
+
+
+width: 15% !important;
+    z-index: 1 !important;
+    top: 48% !important;
+    left: 5% !important;
+    position: absolute !important;
+  
+  }
+  .details_queueimage
+  {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .details_queuediv
+  {
+    display: inline-block;
+    margin-left: 10px;
+    color:grey;
+    position: relative;
+    top: 20px;
+    font-size: 1.25rem;
+    white-space: nowrap;
+
+  }
+  .queue_detailsintimeimage
+  {
+    margin:20px;
+  }
+  .queue_detailsintimeimage_container
+  {
+    padding:20px;
+  }
+ .css-1fzpoyk
+ {
+  
+  transform: translateY(-50%) translateX(-50%) !important;
+  left:75%;
+  opacity: 1!important;
+ }
+ .parient_intime
+ {
+     color:rgb(131 175 64) !important;
+
+ }
+ .queuediv_detailsintime
+ {
+     margin-right: 20px;
+     margin-left: 8%;
+     position:relative;
+     top:20px;
+     font-size: 1.25rem;
+     color:grey;
+     white-space: nowrap;
+ }
+ .right_arrow
+ {
+  color:grey !important;
+  cursor:pointer;
+ }
+ @media only screen and (max-width:959px){
+
+ .image
+ {
+  width:110px !important;
+  height:110px !important;
+ 
+ }
+.carosal_arrow
+ {
+position: absolute;
+    top: 112px;
+     right: 33px;
+    font-size: 38px;
+  }
+    .left_arrow{
+    position: absolute;
+    left: 30px;
+    width: 40px;
+
+  }
+  .right_arrow
+  {
+    position: absolute;
+    right:-38px;
+
+  }
+    .imageitem
+    {
+      width: 200px !important;
+    height: 250px !important;
+    }
+    /* .queuediv_detailsintime {
+    
+    position: relative;
+    top: 2px;
+    font-size:1rem !important;
+    color: grey;
+    white-space: nowrap;
+    font-family: 'Avenir-Black';
+}
+.details_queuediv {
+   
+    margin-left: 10px;
+    color: grey;
+    position: relative;
+    top: -8px;
+    font-size: 1rem !important;
+    white-space: nowrap;
+    font-family: 'Avenir-Black';
+}
+.imagedetails
+{
+  width:50px !important;
+  height:50px !important;
+
+} */
+.greenwalksignal_indicators
+{
+  width:15px !important;
+  height: 15px !important;
+  padding: 2px !important;
+}
+.red_indicators
+{
+  width:15px !important;
+  height:15px !important;
+  padding: 2px !important;
+}
+.green_indicators
+{
+  width:15px !important;
+  height:15px !important;
+  
+}
+.queuecomp_container_doctor .queue_clinic_div {
+   width:100%;
+  }
+ /* .css-1qzevvg img
+ {
+   width:13px !important;
+   height:25px !important;
+ }*/
+/* .ImageCarouselDynamic_div
+{
+  width:107px !important;
+  height:230px !important;
+}*/
+
+}
+@media only screen and (max-width:579px){
+
+  .image
+  {
+   width:80px !important;
+   height:80px !important;
+  }
+ .carosal_arrow
+  {
+ position: absolute;
+     top: 112px;
+      right: 33px;
+     font-size: 38px;
+   }
+     .left_arrow{
+     position: absolute;
+     left: 30px;
+     width: 40px;
+ 
+   }
+   .right_arrow
+   {
+     position: absolute;
+     right:-38px;
+ 
+   }
+     .imageitem
+     {
+       width: 145px !important;
+     height: 250px !important;
+     }
+ .greenwalksignal_indicators
+ {
+   width:15px !important;
+   height: 15px !important;
+   padding: 2px !important;
+ }
+ .red_indicators
+ {
+   width:15px !important;
+   height:15px !important;
+   padding: 2px !important;
+ }
+ .green_indicators
+ {
+   width:15px !important;
+   height:15px !important;
+   padding: 2px !important
+ }
+ .queuecomp_container_doctor .queue_clinic_div {
+    width:100%;
+   }
+}
+  .queuetime{
+    font-size: 1.75rem;
+    color:  #31CE31 !important;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+   position: relative;
+   top:60px;
+   font-weight: 600;
+  }
+  

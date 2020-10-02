@@ -1,0 +1,64 @@
+.paper_container{
+     width:33%; 
+     height:150px; 
+    padding:15px;
+    margin:10px;
+    box-shadow: 0 8px 20px rgba(143, 168, 191, 0.35) !important;
+}
+.paper_maincontainer{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:15px;
+}
+.secondpaper_maincontainer{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:15px;
+}
+.heart_div{
+    display:flex;
+    justify-content: space-between;
+    color:#817f7f;
+}
+.heart_rate{
+    display:flex;
+
+}
+.heartdate_per{
+    font-size: 2.2rem;
+    margin-bottom: 0px !important;
+    color:#333;
+    margin-right: 10px;
+    position: relative;
+    top:-5px;
+    margin-left: 10px;
+}
+.heart_div p{
+    margin-bottom: 0px !important;
+}
+.heart_date{
+    font-size: 1.5rem;
+}
+.progress_container{
+    width:100%;
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.second_paper_container{
+    margin:15px;
+}
+.heart_rate_progress  .ant-progress-bg{
+    background-color: #ff4e41 !important;
+}
+.sleep_progress .ant-progress-bg{
+    background-color: #38aca9 !important;
+}
+.running_progress .ant-progress-bg{
+    background-color: #21bdfb !important;
+}

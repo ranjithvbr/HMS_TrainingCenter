@@ -1,0 +1,382 @@
+.trainer_manage_popup_details {
+  width: 400px !important;
+}
+.addpackage_modal .MuiDialog-paperWidthSm {
+  min-width: 95% !important;
+  min-height: 95% !important;
+}
+.button_container {
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+/* .addpackage_modal {
+  z-index: 9999999 !important;
+} */
+.manage_package .formdiv .selectbox .ant-select-selection--single{
+  padding:4px !important;
+  border-radius: 2px !important;
+}
+@media only screen and (max-width: 768px) {
+  .addpackage_modal .MuiDialog-paperWidthSm {
+    width: 60% !important;
+  }
+}
+.empty_space{
+  
+}
+.font_add {
+  width: 100px !important;
+  text-align: left;
+  font-size: 1.75rem;
+  color: #a5a5a5;
+  font-weight: bold;
+}
+.top_addpackage {
+  margin-top: 9%;
+}
+.clinicbutton-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+}
+.manage_package .formdiv .brdrcls{
+  font-size: 14px !important;
+  padding:8px !important;
+}
+.manage_package .MuiButton-root{
+  min-width: 82px !important;
+}
+.manage_package .formdiv .MuiInputBase-root {
+  cursor: text;
+  font-size: 1.3rem;
+  /* border: 1px solid #ccc; */
+  padding-left: 5px;
+  border-radius: 2px;
+  /* box-shadow: 0 0 1.5px 0px #ccc; */
+  color: #797777;
+  height:39px;
+}
+.manage_pack_buttons{
+  height: 80px;
+  margin-bottom: 35px !important;
+}
+.manageCancel {
+  font-size: 1.5rem !important;
+  background-color: rgb(201, 201, 201) !important;
+  margin-right: 20px !important;
+  padding: 6px 16px !important;
+  text-transform: none !important;
+  border-radius: 0px !important;
+}
+.manageSubmit {
+  font-size: 1.5rem !important;
+  background-color: rgb(38, 128, 235) !important;
+  color: #fff !important;
+  padding: 6px 16px !important;
+  text-transform: none !important;
+  border-radius: 0px !important;
+}
+.flex_first_second {
+  display: flex;
+  justify-content: space-between;
+}
+/* first column full div */
+.first_column {
+  width: 66%;
+  /* background-color: lightgray; */
+  display: flex;
+  justify-content: space-between;
+}
+.second_column {
+  width: 28%;
+  /* background-color: black; */
+}
+.full_container {
+  padding: 36px;
+  margin-left: 22px;
+  overflow: auto;
+}
+.first_divider {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.card_training {
+  font-size: 13px;
+}
+.width_maxbooking {
+  width: 44% !important;
+}
+
+.width_session {
+  display: flex;
+  width: 48% !important;
+}
+.session_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.plus_flex {
+  display: flex;
+}
+.width_features {
+  width: 100% !important;
+  display: flex;
+}
+
+.quare_plus_align {
+  background-color: #82ae3f !important;
+  bottom: 0px;
+}
+.sq-plusicon_div {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 3px;
+}
+.sq-plusicon_div svg {
+  width: 34px;
+  height: 34px;
+  margin-left: 8px;
+}
+.sq-plusicon_div path {
+  fill: #82ae3f;
+}
+.training_category_label {
+  font-size: 1.5rem;
+  margin-left: 5px;
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.home_icon_clr path {
+  fill: #fcc872;
+}
+.lang_icon_clr path {
+  fill: rgb(110, 65, 175);
+}
+.location_icon_clr path {
+  fill: #b44c55;
+}
+.manage_add_button {
+  font-size: 1.25rem !important;
+  background-color: rgb(38, 128, 235) !important;
+  color: #fff !important;
+  padding: 6px 16px !important;
+  font-weight: 600 !important;
+  text-transform: none !important;
+  width: 100px;
+  height: 32px;
+}
+
+.card_sizecontent {
+  width: 25%;
+  height: 250px;
+  margin-left: 20px;
+}
+.card_view{
+  padding:10px;
+  position: relative;
+}
+.ative_check Checkbox{
+  margin-left: 8px !important;
+}
+.manage_card {
+  width: 100%;
+  height: 100%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 5px 3px #ccc !important;
+
+  border-radius: 8px;
+  opacity: 1;
+  padding:20px 10px;
+  /* font-size: 25px !important; */
+}
+.iconclose_adjust {
+  border-radius: 10px;
+  padding: 2px;
+  border: 0.75px solid #e12f2f;
+  font-size: 2rem !important;
+  color: #e12f2f;
+  top: 3px;
+    right: 6px;
+	z-index: unset;
+  cursor: pointer;
+  position:absolute;
+}
+.package{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right:30px;
+}
+/* .sessionmodal_border{
+ display:flex;
+ justify-content: flex-end;
+ align-items: center;
+} */
+.sessionmodal_color{
+background: #0DCA59;
+border-radius: 29px;
+padding:5px;
+width: 95px;
+height: 35px;
+display: flex;
+font-size: 11px;
+justify-content: center;
+align-items: center;
+}
+.active_p{
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #666666;
+}
+.check_box{
+  margin-right: 10px;
+}
+.check_box .ant-checkbox-inner{
+   width:20px;
+   height:20px;
+   border:1px solid #ccc;
+}
+.check_box .ant-checkbox-checked .ant-checkbox-inner{
+background-color:#82ae3f;
+}
+.active_c{
+  color:#82ae3f;
+  padding-left: 38px;
+  font-size: 13px;
+}
+.card_outdoor {
+  opacity: 1;
+  font-size: 13px;
+  font-weight: bolder;
+}
+.sessionmodal_color {
+  color: aliceblue;
+}
+.dotted_line {
+ background-color:#9E9E9E;
+}
+
+.dotted_line_middle {
+  border-bottom: 2px dashed lightgray;
+}
+.tagas_adjust .circle_close {
+  width: 12px !important;
+  height: 12px !important;
+  border: 1px solid red !important;
+  /* background-color: red; */
+  border-radius: 50%;
+  position: absolute !important;
+  top: -6px;
+  right: -6px;
+}
+.tagas_adjust {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tagas_adjust .ant-tag {
+  width: 45%;
+  margin-bottom: 10px;
+  background-color: #ddd;
+  position: relative;
+  border-radius: 1px;
+}
+.package_nam .training_adjust{
+  font-size: 14px !important;
+  padding: 8px !important;
+  border-radius: 2px !important;
+  border: 1px solid #ccc;
+  width: 100% !important;
+}
+.package_nam .training_adjust:focus{
+  outline: 0px !important;
+}
+.package_det .training_adjust{
+  font-size: 14px !important;
+  padding: 8px !important;
+  border-radius: 2px !important;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-top: 0px !important;
+}
+.package_det .training_adjust:focus{
+  outline: 0px !important;
+
+}
+.tagas_adjust .anticon-close {
+  position: absolute;
+  /* top: 15px; */
+  right: -4px;
+  font-size: 8px !important;
+  top: -4px;
+  color: red;
+}
+.width_training {
+  width: 100% !important;
+}
+@media only screen and (max-width: 1000px) {
+  .full_container .flex_first_second {
+    display: block;
+  }
+  .full_container .first_column {
+    width: 100%;
+  }
+}
+
+.manage_card_align {
+  width: 100%;
+  height: 200px;
+  box-shadow: 0px 9px 28px #00000017 !important;
+  border-radius: 8px;
+
+}
+.manage_tittle {
+  color: #82ae3f;
+  font-weight: 100;
+  margin-left: 18px;
+}
+.title_flex_manage {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px;
+  font-size: 18px;
+}
+.first_div_manage {
+  width: 30%;
+  color: #82ae3f;
+}
+.second_div_manage {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.add_training_manage {
+  color: #82ae3f;
+  font-weight: 200;
+  margin-left: 33px;
+}
+.add_training_div {
+  margin: 33px;
+  border-bottom: 1px dashed;
+}
+.label {
+  font-weight: 100 !important;
+}
+.manage_icons_size svg {
+  font-size: 20px;
+}
+
+/* preview card css */
+.pre_tra_pac {
+  width: 50%;
+  color: #333;
+  font-size: 12px;
+}
+.pacage_value {
+  width: 50%;
+  word-wrap: break-word !important;
+  font-size: 12px;
+}

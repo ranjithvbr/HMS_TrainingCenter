@@ -1,0 +1,56 @@
+@font-face {
+  font-family:"Roboto";
+  src:url('./font/ROBOTO/Roboto-Regular.ttf')format('truetype');
+}
+body {
+font-family: "Roboto"; 
+}
+*{
+  font-family: "Roboto" !important;
+}
+.MuiPickersDay-daySelected{
+  background-color: #82AE3F !important;
+}
+.ant-input:hover {
+  color: none !important;
+  border-right-width: 1px !important;
+}
+.MuiFormHelperText-root.Mui-error{
+  font-size: 12px !important;
+}
+/* .MuiButton-root {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+} */
+/*.MuiButtonGroup-root {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.20) !important;
+}*/
+button:focus{
+  outline: none !important;
+}
+/* label{
+  font-weight: 100 !important;
+} */
+a:hover{
+  text-decoration: none !important;
+}
+.errmsg_clr{
+color:red;
+}
+body *::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+  transition: 0.3s ;
+}
+body *::-webkit-scrollbar-thumb {
+  background: #ADAAA8;
+}
+.anticon-download{
+display:none !important;
+}
+.anticon-delete{
+  color:red !important;
+}
+
+.iconsdiv {
+  cursor: pointer;
+}

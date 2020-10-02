@@ -1,0 +1,46 @@
+.basicdetails_firstgrid{
+    width:80%;
+    height:auto;
+}
+.basicdetails_container{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.basicdetails_child{
+    width:100%;
+    height:100%;
+}
+.basicdetails_container .formdiv{
+    margin-bottom: 10px !important;
+}
+.basic_details_container{
+    height:390px;
+    margin-bottom: 20px;
+}
+.buttons_container_lab{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact_align_lab{
+    margin-top: 10px;
+}
+.basic_details_container .formdiv .brdrcls{
+ font-size: 1.25rem !important;
+ padding: 8px !important;
+}
+.datebook_button{
+    text-transform: capitalize;
+}
+.basic_detail_mob input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.basic_detail_mob input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,180 @@
+.doctor_dashboard_view {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 120px auto 30px;
+  background-color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  text-align: center;
+}
+.doctor_popup_details .MuiDialog-paperWidthSm {
+  width: 400px !important;
+}
+.MuiDialog-paper {
+  overflow-y: initial !important;
+}
+/* .close_ico {
+  position: absolute !important;
+  height: 15px !important;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+} */
+.close_ico:hover {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.patient_name {
+  font-size: 24px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 100;
+}
+.patient_age {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: grey;
+}
+.patientappointment_details {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 200;
+}
+.patient_date {
+  color: grey;
+  font-size: 1.5rem;
+  margin-left: 20px;
+}
+.patient_date2{
+  color: grey;
+  font-size: 1.5rem;
+  margin-left: 67px;
+}
+.patientappointment_details-div {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-right: 16px;
+}
+.view_detailsbutton {
+  color: #fff !important;
+  font-size: 1.25rem !important;
+  font-weight: bold !important;
+  width: 134px !important;
+  font-size: 18px !important;
+  height: 38px !important;
+  border-radius: 2px !important;
+  background-color: rgb(71, 196, 88) !important;
+}
+.right_arrowview {
+  font-size: 3rem !important;
+}
+.doctor_details_container {
+  width: 100%;
+  padding: 20px;
+}
+.doctor_detailsdiv {
+  width: 100%;
+  height: 100%;
+}
+.patient {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  top: -60px;
+  z-index: 10000;
+  left: 38%;
+  padding: 5px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12) !important;
+}
+.divider_root {
+  /* margin-top: 20px !important;
+  height:2px !important; */
+  border-top: dotted;
+  opacity: 0.3;
+}
+.patient:hover {
+  transition: all 0.3s ease-in-out !important;
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+}
+.profile_modal .MuiDialog-paperWidthSm {
+  width: 40% !important;
+}
+@media only screen and (min-width: 768px) {
+  .profile_modal .MuiDialog-paperWidthSm {
+    width: 50% !important;
+  }
+}
+
+/* saran */
+.booked_details_font {
+  font-size: 17px !important;
+  font-weight: 200 !important;
+  color: rgba(0, 0, 0, 0.87);
+}
+.fromdate_adjust {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-weight: 200;
+}
+.fromdate_adjust_div {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  margin-right: 16px;
+}
+/* .book_date_adjust{
+  margin-left: 20% !important;
+} */
+.to_date {
+  color: grey;
+  font-size: 1.5rem;
+  margin-left: 40px;
+}
+.vertical_line {
+  border-right: dotted;
+  opacity: 0.3;
+  margin-top: 3%;
+}
+.billed_adjust {
+  /* margin-left: 12% !important; */
+  margin-right: -7% !important;
+}
+
+/* close icon css */
+.close_icon_modal {
+  font-size: 4rem !important;
+  color: #333333a1 !important;
+  cursor: pointer;
+  padding: 9px;
+  border-radius: 50%;
+}
+
+.close_icon_modal:hover {
+  background-color: rgb(0 0 0 / 20%);
+}
+.close_icon_modal_div {
+  position: absolute;
+  top: 7px;
+  right: 11px;
+}
+.profile_modal {
+  position: relative;
+}

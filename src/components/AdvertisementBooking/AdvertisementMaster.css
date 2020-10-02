@@ -1,0 +1,33 @@
+.revenueclinic_container .formdiv{
+   display:flex;
+   align-items: center;
+   margin-right: 15px;
+}
+.revenueclinic_container .formdiv .labeltxt{
+   padding-right:5px;
+   padding-bottom: 0px !important;
+   width: 80%;
+}
+.calendar_container {
+   padding-bottom: 50px;
+   height:550px;
+}
+@media screen and (max-width: 959px) {
+
+   .calendar_container{
+      height:100%;
+   }
+   }
+   .clinic_label{
+      font-size: 18px;
+      font-weight: 600;
+      margin-right: 10px;
+      color: black;
+   }
+   .select_drop{
+      width: 150px;
+      height: 30px;
+      color: black;
+      font-size: 16px;
+      font-weight: 600;
+   }
